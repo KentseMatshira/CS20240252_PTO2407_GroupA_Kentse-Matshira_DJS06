@@ -31,3 +31,6 @@ names.forEachach((name, index) => {
  const nameLengths = name.map(name => name.length);
  console.log(nameLengths);
  
+ // Task 4
+ const sortedProvinces = [...provinces].sort();
+ console.log(sortedProvinces);
