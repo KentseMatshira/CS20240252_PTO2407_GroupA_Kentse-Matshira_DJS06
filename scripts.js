@@ -54,9 +54,16 @@ names.forEachach((name, index) => {
  }, {});
  console.log(namesToProvinces);
  
- //Advanced
- //Task 1
+ // Advanced
+ // Task 1
  console.log(products.forEach(product => console.log(product.product)));
  
- //Task 2
+ // Task 2
  console.log(products.filter((product) => product.product.length <= 5));
+ 
+ // Task 3
+ console.log(
+   products
+     .filter(products => products.price && !isNaN(product.price))
+     .reduce((total, product) => total + Number(product.price), 0)
+ );
