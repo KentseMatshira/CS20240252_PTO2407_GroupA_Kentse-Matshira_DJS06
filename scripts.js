@@ -48,3 +48,14 @@ names.forEachach((name, index) => {
  console.log(containS);
  
  // Task 7
+ const namesToProvinces = names.reduce((acc, name, index) => {
+   acc[name] = provinces[index];
+   return acc;
+ }, {});
+ console.log(namesToProvinces);
+ 
+ //Advanced
+ //Task 1
+ console.log(products.forEach(product => console.log(product.product)));
+ 
+ //Task 2
