@@ -59,3 +59,4 @@ names.forEachach((name, index) => {
  console.log(products.forEach(product => console.log(product.product)));
  
  //Task 2
+ console.log(products.filter((product) => product.product.length <= 5));
