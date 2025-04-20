@@ -39,4 +39,12 @@ names.forEachach((name, index) => {
  const filteredProvinces = provinces.filter(
    province => !province.includes('Cape')
  );
- console.log(filteredProvinces)v
+ console.log(filteredProvinces)
+
+ console.log(filteredProvinces);
+ 
+ // Task 6
+ const containS = names.map(name => name.includes('S'));
+ console.log(containS);
+ 
+ // Task 7
