@@ -13,6 +13,8 @@ const products = [
   { product: 'coffee', price: 10 },
   { product: 'tea', price: '' },
 ]
+
+//Task 1
 names.forEach((name) => console.log(name));
 
 provinces.forEach((province) => console.log(province));
@@ -20,3 +22,7 @@ provinces.forEach((province) => console.log(province));
 names.forEachach((name, index) => {
   console.log(`${name}, ${provinces[index]}`);
 });
+
+// Task 2
+ const uppercaseProvinces = provinces.map(province => province.toUpperCase());
+ console.log(uppercaseProvinces);
