@@ -67,3 +67,8 @@ names.forEachach((name, index) => {
      .filter(product => product.price && !isNaN(product.price))
      .reduce((total, product) => total + Number(product.price), 0)
  );
+
+ // Task 4
+ console.log(products.reduce((acc, product) => acc + product.product, ''));
+ 
+ //Task 5
