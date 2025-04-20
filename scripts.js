@@ -83,3 +83,10 @@ names.forEachach((name, index) => {
        Lowest: ${pricedProducts.find(p => Number(p.price) === minPrice).product}.`;
    })()
  ); // this was a thriller
+ // Task 6
+ console.log(
+   Object.entries(products).reduce((acc, [_, product]) => {
+     acc.push({ name: product.product, cost: product.price });
+     return acc;
+   }, [])
+ );
