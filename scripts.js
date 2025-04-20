@@ -64,6 +64,6 @@ names.forEachach((name, index) => {
  // Task 3
  console.log(
    products
-     .filter(products => products.price && !isNaN(product.price))
+     .filter(product => product.price && !isNaN(product.price))
      .reduce((total, product) => total + Number(product.price), 0)
  );
