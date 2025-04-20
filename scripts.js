@@ -34,3 +34,9 @@ names.forEachach((name, index) => {
  // Task 4
  const sortedProvinces = [...provinces].sort();
  console.log(sortedProvinces);
+
+ // Task 5
+ const filteredProvinces = provinces.filter(
+   province => !province.includes('Cape')
+ );
+ console.log(filteredProvinces)v
